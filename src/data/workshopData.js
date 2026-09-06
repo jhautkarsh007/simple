@@ -108,7 +108,7 @@ export const SPEAKERS = [
   { name: "Dr. Jichil Majhi", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_jichil_majhi.png" },
   { name: "Dr. Manish Roy", designation: "Professor of Practice, DMME", institution: "NIT JSR", image: "/assets/speaker_manish_roy.png" },
   { name: "Dr. Indranil Chattoraj", designation: "Ex-Director", institution: "CSIR-NML Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
-  { name: "Dr. Ranu Kumari", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_ranu_kumari.png" },
+  { name: "Dr. Renu Kumari", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_renu_kumari.png" },
   { name: "Dr. Manashi Adhikari", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikari.png" },
   { name: "Dr. Aravind Gali", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_aravind_gali.png" },
   { name: "Dr. Poulomi Maji", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_poulomi_maji.png" },

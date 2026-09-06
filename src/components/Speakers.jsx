@@ -83,11 +83,11 @@ export default function Speakers() {
               >
                 {/* Photo Avatar */}
                 <div className="relative mb-4">
-                  <div className="w-24 h-24 rounded-full overflow-hidden ring-4 ring-blue-50 shadow-md group-hover:ring-blue-500/40 transition-all">
+                  <div className="w-24 h-24 rounded-full bg-slate-100 p-0.5 ring-4 ring-blue-100 group-hover:ring-blue-500/40 shadow-md transition-all">
                     <img
                       src={speaker.image}
                       alt={speaker.name}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                      className="w-full h-full rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
                   <span className="absolute bottom-0 right-0 bg-blue-600 text-white p-1 rounded-full shadow">

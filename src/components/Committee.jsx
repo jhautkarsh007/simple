@@ -30,11 +30,13 @@ export default function Committee() {
             
             {/* Chief Patron */}
             <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <img
-                src={COMMITTEE.chiefPatron.image}
-                alt={COMMITTEE.chiefPatron.name}
-                className="w-28 h-28 mx-auto rounded-full object-cover ring-4 ring-blue-500/20 shadow-md mb-4"
-              />
+              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-blue-500/20 shadow-md">
+                <img
+                  src={COMMITTEE.chiefPatron.image}
+                  alt={COMMITTEE.chiefPatron.name}
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
               <span className="inline-block bg-blue-700 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
                 {COMMITTEE.chiefPatron.role}
               </span>
@@ -44,11 +46,13 @@ export default function Committee() {
 
             {/* Chief Co-Patron */}
             <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <img
-                src={COMMITTEE.chiefCoPatron.image}
-                alt={COMMITTEE.chiefCoPatron.name}
-                className="w-28 h-28 mx-auto rounded-full object-cover ring-4 ring-blue-500/20 shadow-md mb-4"
-              />
+              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-indigo-500/20 shadow-md">
+                <img
+                  src={COMMITTEE.chiefCoPatron.image}
+                  alt={COMMITTEE.chiefCoPatron.name}
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
               <span className="inline-block bg-indigo-700 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
                 {COMMITTEE.chiefCoPatron.role}
               </span>
@@ -58,11 +62,13 @@ export default function Committee() {
 
             {/* Patron */}
             <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <img
-                src={COMMITTEE.patron.image}
-                alt={COMMITTEE.patron.name}
-                className="w-28 h-28 mx-auto rounded-full object-cover ring-4 ring-blue-500/20 shadow-md mb-4"
-              />
+              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-slate-400/20 shadow-md">
+                <img
+                  src={COMMITTEE.patron.image}
+                  alt={COMMITTEE.patron.name}
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
               <span className="inline-block bg-slate-800 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
                 {COMMITTEE.patron.role}
               </span>
@@ -83,11 +89,13 @@ export default function Committee() {
             {/* Convenors */}
             {COMMITTEE.convenors.map((member, idx) => (
               <div key={idx} className="bg-white border border-slate-200 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-all">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-20 h-20 mx-auto rounded-full object-cover ring-2 ring-amber-400 shadow mb-3"
-                />
+                <div className="w-20 h-20 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-2 ring-amber-400 shadow">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full rounded-full object-cover"
+                  />
+                </div>
                 <span className="inline-block bg-amber-100 text-amber-800 text-[11px] font-bold px-2.5 py-0.5 rounded mb-1">
                   {member.role}
                 </span>
@@ -99,11 +107,13 @@ export default function Committee() {
             {/* Secretaries */}
             {COMMITTEE.organizingSecretaries.map((member, idx) => (
               <div key={idx} className="bg-white border border-slate-200 rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-all">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-20 h-20 mx-auto rounded-full object-cover ring-2 ring-blue-400 shadow mb-3"
-                />
+                <div className="w-20 h-20 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-2 ring-blue-400 shadow">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full rounded-full object-cover"
+                  />
+                </div>
                 <span className="inline-block bg-blue-100 text-blue-800 text-[11px] font-bold px-2.5 py-0.5 rounded mb-1">
                   {member.role}
                 </span>
