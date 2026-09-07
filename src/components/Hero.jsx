@@ -77,14 +77,27 @@ export default function Hero() {
           </h1>
 
           {/* 5. 30th October to 3rd November 2026 */}
-          <div className="pt-2">
-            <span className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-amber-600 text-white font-extrabold text-xs sm:text-base px-4 py-1.5 rounded-full shadow-lg border border-red-400/30">
-              <Calendar className="w-4 h-4" /> 30th October to 3rd November 2026
-            </span>
-          </div>
+            <div className="pt-2">
+              <span className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-amber-600 text-white font-extrabold text-xs sm:text-base px-4 py-1.5 rounded-full shadow-lg border border-red-400/30">
+                <Calendar className="w-4 h-4" /> 30th October to 3rd November 2026
+              </span>
+            </div>
 
-          {/* 6. In collaboration with IIM Jamshedpur Chapter */}
-          <p className="text-slate-300 font-medium text-xs sm:text-sm pt-2 flex items-center justify-center gap-2">
+            {/* Brochure Button */}
+            <div className="pt-4 flex justify-center">
+              <a
+                href="/assets/workshop-brochure.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-slate-900 hover:bg-slate-100 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5"
+              > 
+                <span>📄 View Brochure</span>
+                <ExternalLink className="w-5 h-5" />
+              </a>
+            </div>
+
+            {/* 6. In collaboration with IIM Jamshedpur Chapter */}
+            <p className="text-slate-300 font-medium text-xs sm:text-sm pt-2 flex items-center justify-center gap-2">
             {/* <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-5 bg-white p-0.5 rounded inline-block" /> */}
             <span>In collaboration with <strong className="text-amber-300">IIM Jamshedpur Chapter</strong></span>
           </p>

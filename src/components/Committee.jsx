@@ -148,7 +148,7 @@ export default function Committee() {
             <h3 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2 border-b border-slate-200 pb-3">
               <Users className="w-5 h-5 text-blue-600" /> Organizing Members
             </h3>
-            <p className="text-xs text-slate-500 font-medium mb-4">Faculties of DMME, NIT Jamshedpur:</p>
+            <p className="text-xs text-slate-500 font-medium mb-4">Faculty Members of DMME, NIT Jamshedpur:</p>
             <div className="flex flex-wrap gap-2">
               {COMMITTEE.organizingMembers.map((member, idx) => (
                 <span key={idx} className="bg-white border border-slate-300 text-slate-800 text-xs font-semibold px-3 py-1.5 rounded-lg shadow-sm">
