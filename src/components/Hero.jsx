@@ -85,7 +85,7 @@ export default function Hero() {
 
           {/* 6. In collaboration with IIM Jamshedpur Chapter */}
           <p className="text-slate-300 font-medium text-xs sm:text-sm pt-2 flex items-center justify-center gap-2">
-            <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-5 bg-white p-0.5 rounded inline-block" />
+            {/* <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-5 bg-white p-0.5 rounded inline-block" /> */}
             <span>In collaboration with <strong className="text-amber-300">IIM Jamshedpur Chapter</strong></span>
           </p>
 

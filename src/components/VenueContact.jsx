@@ -41,7 +41,7 @@ export default function VenueContact() {
                   href={mapSearchUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-xs text-blue-300 hover:text-white bg-blue-600/30 hover:bg-blue-600/50 px-2.5 py-1 rounded-lg border border-blue-500/30 transition-colors"
+                  className="inline-flex items-center gap-1 text-xs text-blue-300 hover:text-white bg-blue-600/30 hover:bg-blue-600/50 px-2.5 py-1 rounded-lg border border-blue-500/30 transition-colors cursor-pointer"
                 >
                   <span>Open Maps</span>
                   <ExternalLink className="w-3 h-3" />
