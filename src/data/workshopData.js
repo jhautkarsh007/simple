@@ -144,7 +144,7 @@ export const REGISTRATION_DETAILS = {
 };
 
 export const VENUE_DETAILS = {
-  room: "Room no 212",
+  room: "Lecture Hall 212",
   building: "Diamond Jubilee Lecture Hall Complex (DJLHC)",
   institution: "NIT Jamshedpur",
   fullLocation: "Room no 212, Diamond Jubilee Lecture Hall Complex (DJLHC), NIT Jamshedpur"

@@ -37,7 +37,7 @@ export default function VenueContact() {
                 <span className="inline-flex items-center gap-1.5 bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
                   <MapPin className="w-3.5 h-3.5" /> Event Location
                 </span>
-                <a
+                {/* <a
                   href={mapSearchUrl}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function VenueContact() {
                 >
                   <span>Open Maps</span>
                   <ExternalLink className="w-3 h-3" />
-                </a>
+                </a> */}
               </div>
 
               <h3 className="text-2xl font-bold text-white mb-1">

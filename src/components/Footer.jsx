@@ -17,8 +17,8 @@ export default function Footer() {
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img src="/assets/simple_workshop_logo.png" alt="SIMPLE Logo" className="h-12 bg-white p-0.5 rounded-full shadow" />
-              <img src="/assets/nit_logo.png" alt="NIT JSR" className="h-10 bg-white p-1 rounded" />
-              <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-10 bg-white p-1 rounded" />
+              {/* <img src="/assets/nit_logo.png" alt="NIT JSR" className="h-10 bg-white p-1 rounded" />
+              <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-10 bg-white p-1 rounded" /> */}
               <div>
                 <span className="font-extrabold text-lg text-white block">SIMPLE 2026</span>
                 <span className="text-xs text-amber-400 font-semibold">NIT Jamshedpur</span>
@@ -66,7 +66,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2 text-xs text-slate-400">
               <p><strong className="text-slate-300">Dates:</strong> Oct 30 – Nov 3, 2026</p>
-              <p><strong className="text-slate-300">Venue:</strong> Room 212, DJLHC, NIT Jamshedpur</p>
+              <p><strong className="text-slate-300">Venue:</strong> Lecutre Hall 212, DJLHC, NIT Jamshedpur</p>
               <p><strong className="text-slate-300">Convenors:</strong> Dr. Monalisa Mandal & Dr. Prakash Sarkar</p>
               <p><strong className="text-slate-300">Secretaries:</strong> Dr. Ram Krishna & Dr. Aravind Gali</p>
             </div>

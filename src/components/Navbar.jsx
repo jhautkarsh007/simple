@@ -37,16 +37,6 @@ export default function Navbar() {
                 alt="SIMPLE 2026 Logo" 
                 className="h-11 w-auto bg-white p-0.5 rounded-full shadow-md object-contain" 
               />
-              <img 
-                src="/assets/nit_logo.png" 
-                alt="NIT Jamshedpur Logo" 
-                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain hidden sm:block" 
-              />
-              <img 
-                src="/assets/iim_logo.png" 
-                alt="IIM Jamshedpur Chapter Logo" 
-                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain hidden md:block" 
-              />
             </div>
             <div>
               <span className={`block font-bold text-lg leading-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
@@ -103,7 +93,6 @@ export default function Navbar() {
       {isOpen && (
         <div className="lg:hidden bg-slate-900/95 backdrop-blur-xl border-b border-slate-800 text-white px-4 pt-3 pb-6 space-y-3 shadow-2xl">
           <div className="flex items-center gap-2 pb-2 border-b border-slate-800">
-            <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-8 bg-white p-1 rounded" />
             <span className="text-xs text-slate-300">In collaboration with IIM Jamshedpur Chapter</span>
           </div>
           {navLinks.map((link) => (
