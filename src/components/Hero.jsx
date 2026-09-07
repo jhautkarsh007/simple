@@ -82,18 +82,33 @@ export default function Hero() {
                 <Calendar className="w-4 h-4" /> 30th October to 3rd November 2026
               </span>
             </div>
-
+            {/* Last Date for Registration */}
+            <div className="pt-3">
+              <span className="inline-flex items-center gap-2 bg-red-500/10 border border-red-400/40 text-red-300 font-bold text-sm sm:text-base px-4 py-2 rounded-lg">
+                <Calendar className="w-4 h-4" />
+                Last Date for Registration: 20th October 2026
+              </span>
+            </div>
             {/* Brochure Button */}
             <div className="pt-4 flex justify-center">
-              <a
-                href="/assets/workshop-brochure.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() => {
+                  // Open PDF in a new tab
+                  window.open("/assets/workshop-brochure.pdf", "_blank");
+
+                  // Start download
+                  const link = document.createElement("a");
+                  link.href = "/assets/workshop-brochure.pdf";
+                  link.download = "workshop-brochure.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
                 className="inline-flex items-center gap-2 bg-white text-slate-900 hover:bg-slate-100 font-bold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5"
-              > 
+              >
                 <span>📄 View Brochure</span>
                 <ExternalLink className="w-5 h-5" />
-              </a>
+              </button>
             </div>
 
             {/* 6. In collaboration with IIM Jamshedpur Chapter */}
