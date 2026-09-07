@@ -33,14 +33,19 @@ export default function Navbar() {
           <a href="#home" className="flex items-center gap-3 group">
             <div className="flex items-center gap-2">
               <img 
+                src="/assets/simple_workshop_logo.png" 
+                alt="SIMPLE 2026 Logo" 
+                className="h-11 w-auto bg-white p-0.5 rounded-full shadow-md object-contain" 
+              />
+              <img 
                 src="/assets/nit_logo.png" 
                 alt="NIT Jamshedpur Logo" 
-                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain" 
+                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain hidden sm:block" 
               />
               <img 
                 src="/assets/iim_logo.png" 
                 alt="IIM Jamshedpur Chapter Logo" 
-                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain hidden sm:block" 
+                className="h-10 w-auto bg-white p-1 rounded shadow-sm object-contain hidden md:block" 
               />
             </div>
             <div>

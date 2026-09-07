@@ -16,6 +16,7 @@ export default function Footer() {
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
+              <img src="/assets/simple_workshop_logo.png" alt="SIMPLE Logo" className="h-12 bg-white p-0.5 rounded-full shadow" />
               <img src="/assets/nit_logo.png" alt="NIT JSR" className="h-10 bg-white p-1 rounded" />
               <img src="/assets/iim_logo.png" alt="IIM Logo" className="h-10 bg-white p-1 rounded" />
               <div>

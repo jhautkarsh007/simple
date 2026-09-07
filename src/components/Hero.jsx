@@ -47,6 +47,15 @@ export default function Hero() {
         {/* Main Header Stack matching Brochure sequence */}
         <div className="text-center max-w-4xl mx-auto space-y-3">
           
+          {/* Official SIMPLE Workshop Circular Emblem */}
+          <div className="flex justify-center mb-2">
+            <img
+              src="/assets/simple_workshop_logo.png"
+              alt="SIMPLE 2026 Official Logo"
+              className="w-36 h-36 sm:w-44 sm:h-44 bg-white p-1 rounded-full shadow-2xl ring-4 ring-blue-500/30 transform hover:scale-105 transition-transform duration-300 object-contain"
+            />
+          </div>
+
           {/* 1. National Institute of Technology Jamshedpur */}
           <h2 className="text-red-500 font-extrabold text-xl sm:text-3xl md:text-4xl uppercase tracking-wider drop-shadow-md">
             NATIONAL INSTITUTE OF TECHNOLOGY JAMSHEDPUR
