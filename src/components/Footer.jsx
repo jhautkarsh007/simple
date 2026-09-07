@@ -29,7 +29,7 @@ export default function Footer() {
               Organized by Department of Metallurgical and Materials Engineering, NIT Jamshedpur in collaboration with IIM Jamshedpur Chapter.
             </p>
 
-            <div className="pt-2">
+            {/* <div className="pt-2">
               <a
                 href={WORKSHOP_DETAILS.registrationFormUrl}
                 target="_blank"
@@ -39,7 +39,7 @@ export default function Footer() {
                 <span>Google Registration Form</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}

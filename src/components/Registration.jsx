@@ -41,7 +41,7 @@ export default function Registration() {
         </div>
 
         {/* Early Bird Concession Highlight Banner */}
-        <div className="mb-12 bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 text-white rounded-2xl p-6 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
+        {/* <div className="mb-12 bg-gradient-to-r from-amber-500 via-amber-600 to-yellow-600 text-white rounded-2xl p-6 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <div className="p-3 bg-white/20 rounded-xl backdrop-blur-md">
               <Sparkles className="w-8 h-8 text-amber-100" />
@@ -63,7 +63,7 @@ export default function Registration() {
             <span>Register Now</span>
             <ExternalLink className="w-4 h-4" />
           </a>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
@@ -106,36 +106,27 @@ export default function Registration() {
             </div>
 
             {/* Registration CTA */}
-            <div className="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div>
-                <p className="text-xs text-slate-500">Official Google Registration Form link:</p>
-                <p className="text-xs font-mono text-slate-700 font-semibold truncate max-w-xs sm:max-w-sm">
-                  {WORKSHOP_DETAILS.registrationFormUrl.substring(0, 45)}...
-                </p>
-              </div>
-
-              <div className="flex items-center gap-3 w-full sm:w-auto">
-                <button
-                  onClick={() => setShowQR(!showQR)}
-                  className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-700 font-semibold px-4 py-2.5 rounded-xl text-xs transition-colors"
-                >
-                  <QrCode className="w-4 h-4 text-blue-600" />
-                  <span>{showQR ? 'Hide QR' : 'Scan QR'}</span>
-                </button>
-                <a
-                  href={WORKSHOP_DETAILS.registrationFormUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2.5 rounded-xl text-xs shadow-md transition-all"
-                >
-                  <span>Open Form</span>
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
-            </div>
+            {/* <div className="mt-8 pt-6 border-t border-slate-200 flex items-center justify-end gap-3"> */}
+              {/* <button
+                onClick={() => setShowQR(!showQR)}
+                className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 bg-slate-100 hover:bg-slate-200 border border-slate-300 text-slate-700 font-semibold px-4 py-2.5 rounded-xl text-xs transition-colors"
+              >
+                <QrCode className="w-4 h-4 text-blue-600" />
+                <span>{showQR ? 'Hide QR' : 'Scan QR'}</span>
+              </button> */}
+              {/* <a
+                href={WORKSHOP_DETAILS.registrationFormUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2.5 rounded-xl text-xs shadow-md transition-all"
+              >
+                <span>Open Form</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a> */}
+            {/* </div> */}
 
             {/* Modal/Dropdown QR Code */}
-            {showQR && (
+            {/* {showQR && (
               <div className="mt-6 p-4 bg-slate-900 text-white rounded-xl flex flex-col sm:flex-row items-center gap-6 shadow-xl animate-fadeIn">
                 <img
                   src={REGISTRATION_DETAILS.qrCodeImage}
@@ -149,7 +140,7 @@ export default function Registration() {
                   </p>
                 </div>
               </div>
-            )}
+            )} */}
 
           </div>
 
