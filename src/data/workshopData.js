@@ -111,7 +111,7 @@ export const SPEAKERS = [
   { name: "Dr. Renu Kumari", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_renu_kumari.png" },
   { name: "Dr. Manashi Adhikari", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikari.png" },
   { name: "Dr. Aravind Gali", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_aravind_gali.png" },
-  { name: "Dr. Poulomi Maji", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_poulomi_maji.png" },
+  { name: "Dr. Poulami Maji", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_poulomi_maji.png" },
   { name: "Dr. Anushree Dutta", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_anushree_dutta.png" },
   { name: "Mr. S Balamurugan", designation: "Head, NDTSR group", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_s_balamurugan.png" },
   { name: "Dr. Amitava Mitra", designation: "Former Chief Scientist", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_amitava_mitra.png" },
