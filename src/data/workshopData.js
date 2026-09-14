@@ -121,7 +121,7 @@ export const SPEAKERS = [
   { name: "Dr. Deepak Kumar", designation: "Assistant Professor, DME", institution: "NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
   { name: "Dr. Ram Krishna", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
   { name: "Dr. Ashwinee Kumar", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ashwinee_kumar.png" },
-  { name: "Dr. S Shivaprasad", designation: "Chief Scientist, Mat. Engg. Div.", institution: "CSIR-NML Jamshedpur", image: "/assets/speaker_s_shivaprasad.png" }
+  { name: "Dr. S Shivaprasad", designation: "Chief Scientist, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_shivaprasad.png" }
 ];
 
 export const REGISTRATION_DETAILS = {
