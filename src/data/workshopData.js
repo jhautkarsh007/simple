@@ -40,32 +40,32 @@ export const COMMITTEE = {
   chiefPatron: {
     name: "Prof. Goutam Sutradhar",
     role: "Chief Patron",
-    designation: "Director, NIT JSR",
+    designation: "Director, NIT Jamshedpur",
     image: "/assets/committee_goutam_sutradhar.png"
   },
   chiefCoPatron: {
     name: "Prof. R V Sharma",
     role: "Chief Co-Patron",
-    designation: "Dy Director, NIT JSR",
+    designation: "Dy Director, NIT Jamshedpur",
     image: "/assets/committee_rv_sharma.png"
   },
   patron: {
     name: "Prof. Ashok Kumar",
     role: "Patron",
-    designation: "Professor, DMME, NIT JSR",
+    designation: "Professor, DMME, NIT Jamshedpur",
     image: "/assets/committee_ashok_kumar.png"
   },
   convenors: [
     {
       name: "Dr. Monalisa Mandal",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_monalisa_mandal.png"
     },
     {
       name: "Dr. Prakash Sarkar",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_prakash_sarkar.png"
     }
   ],
@@ -73,20 +73,20 @@ export const COMMITTEE = {
     {
       name: "Dr. Ram Krishna",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_ram_krishna.png"
     },
     {
       name: "Dr. Aravind Gali",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_aravind_gali.png"
     }
   ],
   advisoryCommittee: [
-    "Dr. Manish Roy (POP, DMME, NIT JSR)",
-    "Dr. T K Roy (POP, DMME, NIT JSR)",
-    "Dr. S Tarafdar (POP, DMME, NIT JSR)",
+    "Dr. Manish Roy (POP, DMME, NIT Jamshedpur)",
+    "Dr. T K Roy (POP, DMME, NIT Jamshedpur)",
+    "Dr. S Tarafdar (POP, DMME, NIT Jamshedpur)",
     "Dr. Indranil Manna (Vice Chancellor, BIT Meshra, Ranchi)",
     "Dr. Sandip Ghosh Chowdhury (Director, CSIR-NML, Jamshedpur)",
     "Mr. Chaitanya Bhanu (Vice President Operations, Tata Steel)",
@@ -102,26 +102,26 @@ export const COMMITTEE = {
 };
 
 export const SPEAKERS = [
-  { name: "Dr. Soumitra Tarafdar", designation: "Professor of Practice, DMME", institution: "NIT JSR", image: "/assets/speaker_soumitra_tarafdar.png" },
-  { name: "Dr. Monalisa Mandal", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_monalisa_mandal.png" },
-  { name: "Prof. Ashok Kumar", designation: "Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_ashok_kumar.png" },
-  { name: "Dr. Jichil Majhi", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_jichil_majhi.png" },
-  { name: "Dr. Manish Roy", designation: "Professor of Practice, DMME", institution: "NIT JSR", image: "/assets/speaker_manish_roy.png" },
+  { name: "Dr. Soumitra Tarafdar", designation: "Professor of Practice, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_soumitra_tarafdar.png" },
+  { name: "Dr. Monalisa Mandal", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_monalisa_mandal.png" },
+  { name: "Prof. Ashok Kumar", designation: "Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ashok_kumar.png" },
+  { name: "Dr. Jichil Majhi", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_jichil_majhi.png" },
+  { name: "Dr. Manish Roy", designation: "Professor of Practice, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_manish_roy.png" },
   { name: "Dr. Indranil Chattoraj", designation: "Ex-Director", institution: "CSIR-NML Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
-  { name: "Dr. Renu Kumari", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_renu_kumari.png" },
+  { name: "Dr. Renu Kumari", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_renu_kumari.png" },
   { name: "Dr. Manashi Adhikari", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikari.png" },
-  { name: "Dr. Aravind Gali", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_aravind_gali.png" },
-  { name: "Dr. Poulami Maji", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_poulomi_maji.png" },
-  { name: "Dr. Anushree Dutta", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_anushree_dutta.png" },
+  { name: "Dr. Aravind Gali", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_aravind_gali.png" },
+  { name: "Dr. Poulami Maji", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_poulomi_maji.png" },
+  { name: "Dr. Anushree Dutta", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_anushree_dutta.png" },
   { name: "Mr. S Balamurugan", designation: "Head, NDTSR group", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_s_balamurugan.png" },
   { name: "Dr. Amitava Mitra", designation: "Former Chief Scientist", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_amitava_mitra.png" },
   { name: "Dr. Amritendu Mukherjee", designation: "Scientist", institution: "DMRL Hyderabad", image: "/assets/speaker_amritendu_mukherjee.png" },
-  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_sanjay_k_vajpai.png" },
-  { name: "Dr. Amit Patel", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_amit_patel.png" },
-  { name: "Dr. Deepak Kumar", designation: "Assistant Professor, DME", institution: "NIT JSR", image: "/assets/speaker_deepak_kumar.png" },
-  { name: "Dr. Ram Krishna", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_ram_krishna.png" },
-  { name: "Dr. Ashwinee Kumar", designation: "Assistant Professor, DMME", institution: "NIT JSR", image: "/assets/speaker_ashwinee_kumar.png" },
-  { name: "Dr. S Shivaprasad", designation: "Chief Scientist, Mat. Engg. Div.", institution: "CSIR-NML", image: "/assets/speaker_s_shivaprasad.png" }
+  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" },
+  { name: "Dr. Amit Patel", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_amit_patel.png" },
+  { name: "Dr. Deepak Kumar", designation: "Assistant Professor, DME", institution: "NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
+  { name: "Dr. Ram Krishna", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
+  { name: "Dr. Ashwinee Kumar", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ashwinee_kumar.png" },
+  { name: "Dr. S Shivaprasad", designation: "Chief Scientist, Mat. Engg. Div.", institution: "CSIR-NML Jamshedpur", image: "/assets/speaker_s_shivaprasad.png" }
 ];
 
 export const REGISTRATION_DETAILS = {
@@ -151,6 +151,6 @@ export const VENUE_DETAILS = {
 };
 
 export const CONTACT_DETAILS = [
-  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitjsr.ac.in" },
-  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitjsr.ac.in" }
+  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitJamshedpur.ac.in" },
+  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitJamshedpur.ac.in" }
 ];
