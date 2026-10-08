@@ -11,7 +11,7 @@ export const WORKSHOP_DETAILS = {
   registrationFormUrl: "https://forms.gle/8PwoA19Cwm2HMD8H6",
   schedulePdfUrl: "/assets/5-days workshop schedule-final.pdf",
   brochurePdfUrl: "/assets/Brochure-SIMPLE workshop 2026.pdf",
-  websiteUrl: "https://www.simplenitjsr.com"
+  websiteUrl: "https://www.simplenitJamshedpur.com"
 };
 
 export const ABOUT_TEXT = {
@@ -43,7 +43,7 @@ export const COMMITTEE = {
   chiefPatron: {
     name: "Prof. Goutam Sutradhar",
     role: "Chief Patron",
-    designation: "Director, NIT JSR",
+    designation: "Director, NIT Jamshedpur",
     image: "/assets/committee_goutam_sutradhar.png"
   },
   chiefGuest: {
@@ -55,26 +55,26 @@ export const COMMITTEE = {
   patron: {
     name: "Prof. Ashok Kumar",
     role: "Patron",
-    designation: "Professor, DMME, NIT JSR",
+    designation: "Professor, DMME, NIT Jamshedpur",
     image: "/assets/committee_ashok_kumar.png"
   },
   chairman: {
     name: "Dr. C S Chowdhary",
     role: "Chairman",
-    designation: "HOD, DMME, NIT JSR",
+    designation: "HOD, DMME, NIT Jamshedpur",
     image: "/assets/committee_cs_chowdhary.png"
   },
   convenors: [
     {
       name: "Dr. Monalisa Mandal",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_monalisa_mandal.png"
     },
     {
       name: "Dr. Prakash Sarkar",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_prakash_sarkar.png"
     }
   ],
@@ -82,20 +82,20 @@ export const COMMITTEE = {
     {
       name: "Dr. Ram Krishna",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_ram_krishna.png"
     },
     {
       name: "Dr. Aravind Gali",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT JSR",
+      designation: "Asst. Prof., DMME, NIT Jamshedpur",
       image: "/assets/committee_aravind_gali.png"
     }
   ],
   advisoryCommittee: [
-    "Dr. Manish Roy (POP, DMME, NIT JSR)",
-    "Dr. T K Roy (POP, DMME, NIT JSR)",
-    "Dr. S Tarafder (POP, DMME, NIT JSR)",
+    "Dr. Manish Roy (POP, DMME, NIT Jamshedpur)",
+    "Dr. T K Roy (POP, DMME, NIT Jamshedpur)",
+    "Dr. S Tarafder (POP, DMME, NIT Jamshedpur)",
     "Prof. Indranil Manna (Vice Chancellor, BIT Mesra, Ranchi)",
     "Dr. Sandip Ghosh Chowdhury (Director, CSIR-NML, Jamshedpur)",
     "Mr. Chaitanya Bhanu (Vice President Operations, Tata Steel)",
@@ -237,6 +237,6 @@ export const VENUE_DETAILS = {
 };
 
 export const CONTACT_DETAILS = [
-  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitjsr.ac.in" },
-  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitjsr.ac.in" }
+  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitJamshedpur.ac.in" },
+  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitJamshedpur.ac.in" }
 ];
