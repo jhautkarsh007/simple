@@ -117,23 +117,23 @@ export const SPEAKERS = [
   { name: "Dr. Jichil Majhi", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_jichil_majhi.png" },
   { name: "Dr. Manish Roy", designation: "Professor of Practice", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_manish_roy.png" },
   { name: "Dr. Indranil Chattoraj", designation: "Former Director", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
+  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" },
   { name: "Dr. Manashi Adhikary", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikary.png" },
   { name: "Dr. Aravind Gali", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_aravind_gali.png" },
   { name: "Dr. Poulami Maji", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_poulomi_maji.png" },
   { name: "Dr. Anushree Dutta", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_anushree_dutta.png" },
   { name: "Mr. S Balamurugan", designation: "Head, NDTSR group", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_s_balamurugan.png" },
   { name: "Dr. Amitava Mitra", designation: "Former Chief Scientist", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_amitava_mitra.png" },
-  { name: "Dr. Amritendu Mukhopadhyay", designation: "Scientist", institution: "DMRL, Hyderabad", image: "/assets/speaker_amritendu_mukhopadhyay.png" },
+  { name: "Dr. Ram Krishna", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
   { name: "Dr. Amit Patel", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_amit_patel.png" },
   { name: "Dr. Deepak Kumar", designation: "Assistant Professor", institution: "DME, NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
-  { name: "Dr. Ram Krishna", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
-  { name: "Dr. S Sivaprasad", designation: "Scientist-G, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_sivaprasad.png" },
-  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" }
+  { name: "Dr. Amritendu Mukhopadhyay", designation: "Scientist", institution: "DMRL, Hyderabad", image: "/assets/speaker_amritendu_mukhopadhyay.png" },
+  { name: "Dr. S Sivaprasad", designation: "Scientist-G, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_sivaprasad.png" }
 ];
 
 export const SPONSORS = [
-  { id: 1, name: "Sponsor Partner 1", image: "/assets/sponsor_1.png" },
-  { id: 2, name: "Sponsor Partner 2", image: "/assets/sponsor_2.jpg" }
+  { id: 1, name: "IIM Jamshedpur Chapter", image: "/assets/iim_logo.png" },
+  { id: 2, name: "JAIN Scientific Solutions", image: "/assets/sponsor_2.jpg" }
 ];
 
 export const WORKSHOP_SCHEDULE = [
