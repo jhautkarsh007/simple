@@ -8,7 +8,10 @@ export const WORKSHOP_DETAILS = {
   organizer: "Department of Metallurgical and Materials Engineering",
   institution: "National Institute of Technology (NIT) Jamshedpur, India",
   collaboration: "In collaboration with IIM Jamshedpur Chapter",
-  registrationFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSejIi77tQzUBGvaFPPyC3sYwbGEfcD4NSMR5YpYb9s7-xse1Q/viewform?usp=header",
+  registrationFormUrl: "https://forms.gle/8PwoA19Cwm2HMD8H6",
+  schedulePdfUrl: "/assets/5-days workshop schedule-final.pdf",
+  brochurePdfUrl: "/assets/Brochure-SIMPLE workshop 2026.pdf",
+  websiteUrl: "https://www.simplenitjsr.com"
 };
 
 export const ABOUT_TEXT = {
@@ -40,32 +43,38 @@ export const COMMITTEE = {
   chiefPatron: {
     name: "Prof. Goutam Sutradhar",
     role: "Chief Patron",
-    designation: "Director, NIT Jamshedpur",
+    designation: "Director, NIT JSR",
     image: "/assets/committee_goutam_sutradhar.png"
   },
-  chiefCoPatron: {
-    name: "Prof. R V Sharma",
-    role: "Chief Co-Patron",
-    designation: "Dy Director, NIT Jamshedpur",
-    image: "/assets/committee_rv_sharma.png"
+  chiefGuest: {
+    name: "Dr. Omkar Nath Mohanty",
+    role: "Chief Guest",
+    designation: "Director of Tech & Acad Initiative, RSB Group",
+    image: "/assets/committee_omkar_nath_mohanty.png"
   },
   patron: {
     name: "Prof. Ashok Kumar",
     role: "Patron",
-    designation: "Professor, DMME, NIT Jamshedpur",
+    designation: "Professor, DMME, NIT JSR",
     image: "/assets/committee_ashok_kumar.png"
+  },
+  chairman: {
+    name: "Dr. C S Chowdhary",
+    role: "Chairman",
+    designation: "HOD, DMME, NIT JSR",
+    image: "/assets/committee_cs_chowdhary.png"
   },
   convenors: [
     {
       name: "Dr. Monalisa Mandal",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT Jamshedpur",
+      designation: "Asst. Prof., DMME, NIT JSR",
       image: "/assets/committee_monalisa_mandal.png"
     },
     {
       name: "Dr. Prakash Sarkar",
       role: "Convenor",
-      designation: "Asst. Prof., DMME, NIT Jamshedpur",
+      designation: "Asst. Prof., DMME, NIT JSR",
       image: "/assets/committee_prakash_sarkar.png"
     }
   ],
@@ -73,55 +82,132 @@ export const COMMITTEE = {
     {
       name: "Dr. Ram Krishna",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT Jamshedpur",
+      designation: "Asst. Prof., DMME, NIT JSR",
       image: "/assets/committee_ram_krishna.png"
     },
     {
       name: "Dr. Aravind Gali",
       role: "Organizing Secretary",
-      designation: "Asst. Prof., DMME, NIT Jamshedpur",
+      designation: "Asst. Prof., DMME, NIT JSR",
       image: "/assets/committee_aravind_gali.png"
     }
   ],
   advisoryCommittee: [
-    "Dr. Manish Roy (POP, DMME, NIT Jamshedpur)",
-    "Dr. T K Roy (POP, DMME, NIT Jamshedpur)",
-    "Dr. S Tarafdar (POP, DMME, NIT Jamshedpur)",
-    "Dr. Indranil Manna (Vice Chancellor, BIT Meshra, Ranchi)",
+    "Dr. Manish Roy (POP, DMME, NIT JSR)",
+    "Dr. T K Roy (POP, DMME, NIT JSR)",
+    "Dr. S Tarafder (POP, DMME, NIT JSR)",
+    "Prof. Indranil Manna (Vice Chancellor, BIT Mesra, Ranchi)",
     "Dr. Sandip Ghosh Chowdhury (Director, CSIR-NML, Jamshedpur)",
     "Mr. Chaitanya Bhanu (Vice President Operations, Tata Steel)",
     "Prof. Sukumar Mishra (Director, IIT (ISM) Dhanbad)",
     "Dr. Atanu Ranjan Pal (CTO, Tata Steel and Chairman, IIM Jamshedpur chapter)",
-    "Dr. Gopi Kishore Mandal (Scientist-G, CSIR-NML, Jamshedpur)"
+    "Dr. Gopi Kishor Mandal (Scientist-G, CSIR-NML, Jamshedpur)"
   ],
   organizingMembers: [
-    "Dr. Rina Sahu", "Dr. C S Chowdhary", "Dr. Renu Kumari", "Dr. Poulami Maji", 
-    "Dr. S K Vajpai", "Dr. Binay Kumar", "Dr. Anushree Dutta", "Dr. Jichil Majhi", 
-    "Dr. Partha Duley", "Dr. Ashwinee Kumar", "Dr. Amit Patel"
+    "Dr. Rina Sahu", "Dr. Renu Kumari", "Dr. Poulami Maji", "Dr. S K Vajpai", 
+    "Dr. Binay Kumar", "Dr. Anushree Dutta", "Dr. Jichil Majhi", "Dr. Partha Duley", 
+    "Dr. Ashwinee Kumar", "Dr. Amit Patel"
   ]
 };
 
 export const SPEAKERS = [
-  { name: "Dr. Soumitra Tarafdar", designation: "Professor of Practice, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_soumitra_tarafdar.png" },
-  { name: "Dr. Monalisa Mandal", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_monalisa_mandal.png" },
-  { name: "Prof. Ashok Kumar", designation: "Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ashok_kumar.png" },
-  { name: "Dr. Jichil Majhi", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_jichil_majhi.png" },
-  { name: "Dr. Manish Roy", designation: "Professor of Practice, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_manish_roy.png" },
-  { name: "Dr. Indranil Chattoraj", designation: "Ex-Director", institution: "CSIR-NML Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
-  { name: "Dr. Renu Kumari", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_renu_kumari.png" },
-  { name: "Dr. Manashi Adhikari", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikari.png" },
-  { name: "Dr. Aravind Gali", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_aravind_gali.png" },
-  { name: "Dr. Poulami Maji", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_poulomi_maji.png" },
-  { name: "Dr. Anushree Dutta", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_anushree_dutta.png" },
+  { name: "Dr. Soumitra Tarafder", designation: "Professor of Practice", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_soumitra_tarafder.png" },
+  { name: "Dr. Monalisa Mandal", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_monalisa_mandal.png" },
+  { name: "Prof. Ashok Kumar", designation: "Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ashok_kumar.png" },
+  { name: "Dr. Jichil Majhi", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_jichil_majhi.png" },
+  { name: "Dr. Manish Roy", designation: "Professor of Practice", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_manish_roy.png" },
+  { name: "Dr. Indranil Chattoraj", designation: "Former Director", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
+  { name: "Dr. Manashi Adhikary", designation: "Head, Scientific Service", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_manashi_adhikary.png" },
+  { name: "Dr. Aravind Gali", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_aravind_gali.png" },
+  { name: "Dr. Poulami Maji", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_poulomi_maji.png" },
+  { name: "Dr. Anushree Dutta", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_anushree_dutta.png" },
   { name: "Mr. S Balamurugan", designation: "Head, NDTSR group", institution: "Tata Steel, Jamshedpur", image: "/assets/speaker_s_balamurugan.png" },
   { name: "Dr. Amitava Mitra", designation: "Former Chief Scientist", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_amitava_mitra.png" },
-  { name: "Dr. Amritendu Mukherjee", designation: "Scientist", institution: "DMRL Hyderabad", image: "/assets/speaker_amritendu_mukherjee.png" },
-  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" },
-  { name: "Dr. Amit Patel", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_amit_patel.png" },
-  { name: "Dr. Deepak Kumar", designation: "Assistant Professor, DME", institution: "NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
-  { name: "Dr. Ram Krishna", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
-  { name: "Dr. Ashwinee Kumar", designation: "Assistant Professor, DMME", institution: "NIT Jamshedpur", image: "/assets/speaker_ashwinee_kumar.png" },
-  { name: "Dr. S Shivaprasad", designation: "Chief Scientist, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_shivaprasad.png" }
+  { name: "Dr. Amritendu Mukhopadhyay", designation: "Scientist", institution: "DMRL, Hyderabad", image: "/assets/speaker_amritendu_mukhopadhyay.png" },
+  { name: "Dr. Amit Patel", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_amit_patel.png" },
+  { name: "Dr. Deepak Kumar", designation: "Assistant Professor", institution: "DME, NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
+  { name: "Dr. Ram Krishna", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
+  { name: "Dr. S Sivaprasad", designation: "Scientist-G, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_sivaprasad.png" },
+  { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" }
+];
+
+export const SPONSORS = [
+  { id: 1, name: "Sponsor Partner 1", image: "/assets/sponsor_1.png" },
+  { id: 2, name: "Sponsor Partner 2", image: "/assets/sponsor_2.jpg" }
+];
+
+export const WORKSHOP_SCHEDULE = [
+  {
+    day: "Day 1",
+    date: "30/10/2026",
+    title: "Registration & Inauguration",
+    sessions: [
+      { time: "4:00pm - 5:00pm", topic: "Registration", speaker: null },
+      { time: "5:00pm - 6:00pm", topic: "Inauguration Ceremony", speaker: null },
+      { time: "6:00pm onwards", topic: "High Tea & Networking", speaker: null }
+    ]
+  },
+  {
+    day: "Day 2",
+    date: "31/10/2026",
+    title: "Structural Integrity Assessment & Material Failure Mechanisms",
+    sessions: [
+      { time: "9:30am - 10:00am", topic: "Registration", speaker: null },
+      { time: "10:00am - 11:00am", topic: "Overview of Structural Integrity Assessment for industrial components and structure", speaker: "Dr. Soumitra Tarafder" },
+      { time: "11:00am - 11:30am", topic: "Tea Break", speaker: null },
+      { time: "11:30am - 12:30pm", topic: "Technical Session", speaker: "Dr. Monalisa Mandal" },
+      { time: "12:30pm - 1:30pm", topic: "Technical Session", speaker: "Prof. Ashok Kumar" },
+      { time: "1:30pm - 2:45pm", topic: "Lunch Break", speaker: null },
+      { time: "2:45pm - 3:30pm", topic: "Mechanisms of material damage and quantification of material resistance", speaker: "Dr. Jichil Majhi" },
+      { time: "3:30pm - 4:30pm", topic: "Surface degradation and its prevention", speaker: "Dr. Indranil Chattoraj" },
+      { time: "4:30pm - 5:00pm", topic: "Tea Break", speaker: null },
+      { time: "5:00pm - 6:00pm", topic: "Surface degradation and its prevention (Contd.)", speaker: "Dr. Indranil Chattoraj" }
+    ]
+  },
+  {
+    day: "Day 3",
+    date: "01/11/2026",
+    title: "Simulation, Failure Case Studies & Material Characterization",
+    sessions: [
+      { time: "10:00am - 11:00am", topic: "Simulation and modelling for structural integrity assessment", speaker: "Dr. Amit Patel" },
+      { time: "11:00am - 11:30am", topic: "Tea Break", speaker: null },
+      { time: "11:30am - 12:30pm", topic: "Case studies of industrial failures", speaker: "Dr. Manashi Adhikary" },
+      { time: "12:30pm - 1:30pm", topic: "Simulation and modelling for structural integrity assessment", speaker: "Dr. Deepak Kumar" },
+      { time: "1:30pm - 3:00pm", topic: "Lunch Break", speaker: null },
+      { time: "3:00pm - 4:00pm", topic: "Characterization of damaged materials", speaker: "Dr. Aravind Gali" },
+      { time: "4:00pm - 5:00pm", topic: "Characterization of damaged materials", speaker: "Dr. Poulami Maji" },
+      { time: "5:00pm - 6:00pm", topic: "Characterization of damaged materials", speaker: "Dr. Anushree Dutta" }
+    ]
+  },
+  {
+    day: "Day 4",
+    date: "02/11/2026",
+    title: "NDT&E Techniques & Practical Demonstrations",
+    sessions: [
+      { time: "10:00am - 11:00am", topic: "Quantification of damage and defects through NDT&E", speaker: "Mr. S Balamurugan" },
+      { time: "11:00am - 11:30am", topic: "Tea Break", speaker: null },
+      { time: "11:30am - 12:30pm", topic: "Quantification of damage and defects through NDT&E", speaker: "Dr. Amitava Mitra" },
+      { time: "12:30pm - 1:30pm", topic: "Quantification of damage and defects through NDT&E", speaker: "Dr. Amritendu Mukhopadhyay" },
+      { time: "1:30pm - 3:00pm", topic: "Lunch Break", speaker: null },
+      { time: "3:00pm - 4:00pm", topic: "Quantification of damage and defects through NDT&E", speaker: "Dr. Sanjay K Vajpai" },
+      { time: "4:00pm - 6:00pm", topic: "Live Demonstration of NDT&E techniques", speaker: "Technical Team" }
+    ]
+  },
+  {
+    day: "Day 5",
+    date: "03/11/2026",
+    title: "Automation, AI/IoT, Industry Norms & Valedictory",
+    sessions: [
+      { time: "10:00am - 11:00am", topic: "Application of Automation, IoT, Digital twins, Big data and Machine learning for structural integrity assessment", speaker: "Dr. Ram Krishna" },
+      { time: "11:00am - 11:30am", topic: "Tea Break", speaker: null },
+      { time: "11:30am - 12:30pm", topic: "Surface degradation and its prevention", speaker: "Dr. Manish Roy" },
+      { time: "12:30pm - 1:30pm", topic: "Codes, software and professional norms for Structural integrity assessment: ASME codes, BSI standards, API guidelines", speaker: "Dr. S Sivaprasad" },
+      { time: "1:30pm - 3:00pm", topic: "Lunch Break", speaker: null },
+      { time: "3:00pm - 4:00pm", topic: "Sponsors Presentations", speaker: "Industry Partners" },
+      { time: "4:00pm - 5:00pm", topic: "Valedictory Ceremony", speaker: null },
+      { time: "5:00pm onwards", topic: "High Tea", speaker: null }
+    ]
+  }
 ];
 
 export const REGISTRATION_DETAILS = {
@@ -147,10 +233,10 @@ export const VENUE_DETAILS = {
   room: "Lecture Hall 212",
   building: "Diamond Jubilee Lecture Hall Complex (DJLHC)",
   institution: "NIT Jamshedpur",
-  fullLocation: "Room no 212, Diamond Jubilee Lecture Hall Complex (DJLHC), NIT Jamshedpur"
+  fullLocation: "Lecture Hall 212, Diamond Jubilee Lecture Hall Complex (DJLHC), NIT Jamshedpur"
 };
 
 export const CONTACT_DETAILS = [
-  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitJamshedpur.ac.in" },
-  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitJamshedpur.ac.in" }
+  { name: "Dr. Prakash Sarkar", phone: "+91-9082279470", email: "prakash.met@nitjsr.ac.in" },
+  { name: "Dr. Monalisa Mandal", phone: "+91-9832085835", email: "monalisamet@nitjsr.ac.in" }
 ];

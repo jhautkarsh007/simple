@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Users, Shield, UserCheck, Briefcase } from 'lucide-react';
+import { Award, Users, Shield, UserCheck, Star } from 'lucide-react';
 import { COMMITTEE } from '../data/workshopData';
 
 export default function Committee() {
@@ -13,7 +13,7 @@ export default function Committee() {
             Organization
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
-            Committee Members
+            Committee Members & Leadership
           </h2>
           <p className="text-slate-600 text-base mt-2">
             Organized under the patronage and advisory of distinguished leadership from NIT Jamshedpur & partner institutes.
@@ -21,59 +21,75 @@ export default function Committee() {
           <div className="w-20 h-1 bg-amber-500 mx-auto mt-4 rounded-full" />
         </div>
 
-        {/* Patrons & Leadership Section */}
+        {/* Leadership Section (4 cards) */}
         <div className="mb-16">
           <h3 className="text-xl font-bold text-slate-800 mb-8 text-center flex items-center justify-center gap-2">
-            <Award className="w-5 h-5 text-amber-500" /> Workshop Patrons
+            <Award className="w-5 h-5 text-amber-500" /> Workshop Leadership
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             
             {/* Chief Patron */}
-            <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-blue-500/20 shadow-md">
+            <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-5 text-center shadow-sm hover:shadow-lg transition-all">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-4 ring-blue-500/20 shadow-md">
                 <img
                   src={COMMITTEE.chiefPatron.image}
                   alt={COMMITTEE.chiefPatron.name}
                   className="w-full h-full rounded-full object-cover"
                 />
               </div>
-              <span className="inline-block bg-blue-700 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
+              <span className="inline-block bg-blue-700 text-white text-[11px] font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
                 {COMMITTEE.chiefPatron.role}
               </span>
-              <h4 className="text-lg font-bold text-slate-900">{COMMITTEE.chiefPatron.name}</h4>
+              <h4 className="text-base font-bold text-slate-900 leading-tight">{COMMITTEE.chiefPatron.name}</h4>
               <p className="text-xs text-slate-600 font-medium mt-1">{COMMITTEE.chiefPatron.designation}</p>
             </div>
 
-            {/* Chief Co-Patron */}
-            <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-indigo-500/20 shadow-md">
+            {/* Chief Guest */}
+            <div className="bg-gradient-to-b from-slate-50 to-amber-50/30 border border-amber-200/80 rounded-2xl p-5 text-center shadow-sm hover:shadow-lg transition-all">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-4 ring-amber-500/20 shadow-md">
                 <img
-                  src={COMMITTEE.chiefCoPatron.image}
-                  alt={COMMITTEE.chiefCoPatron.name}
+                  src={COMMITTEE.chiefGuest.image}
+                  alt={COMMITTEE.chiefGuest.name}
                   className="w-full h-full rounded-full object-cover"
                 />
               </div>
-              <span className="inline-block bg-indigo-700 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
-                {COMMITTEE.chiefCoPatron.role}
+              <span className="inline-block bg-amber-600 text-white text-[11px] font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
+                {COMMITTEE.chiefGuest.role}
               </span>
-              <h4 className="text-lg font-bold text-slate-900">{COMMITTEE.chiefCoPatron.name}</h4>
-              <p className="text-xs text-slate-600 font-medium mt-1">{COMMITTEE.chiefCoPatron.designation}</p>
+              <h4 className="text-base font-bold text-slate-900 leading-tight">{COMMITTEE.chiefGuest.name}</h4>
+              <p className="text-xs text-slate-600 font-medium mt-1">{COMMITTEE.chiefGuest.designation}</p>
             </div>
 
             {/* Patron */}
-            <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-all">
-              <div className="w-28 h-28 mx-auto mb-4 rounded-full bg-slate-100 p-0.5 ring-4 ring-slate-400/20 shadow-md">
+            <div className="bg-gradient-to-b from-slate-50 to-blue-50/30 border border-blue-200/80 rounded-2xl p-5 text-center shadow-sm hover:shadow-lg transition-all">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-4 ring-indigo-500/20 shadow-md">
                 <img
                   src={COMMITTEE.patron.image}
                   alt={COMMITTEE.patron.name}
                   className="w-full h-full rounded-full object-cover"
                 />
               </div>
-              <span className="inline-block bg-slate-800 text-white text-xs font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
+              <span className="inline-block bg-indigo-700 text-white text-[11px] font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
                 {COMMITTEE.patron.role}
               </span>
-              <h4 className="text-lg font-bold text-slate-900">{COMMITTEE.patron.name}</h4>
+              <h4 className="text-base font-bold text-slate-900 leading-tight">{COMMITTEE.patron.name}</h4>
               <p className="text-xs text-slate-600 font-medium mt-1">{COMMITTEE.patron.designation}</p>
+            </div>
+
+            {/* Chairman */}
+            <div className="bg-gradient-to-b from-slate-50 to-slate-100/50 border border-slate-300/80 rounded-2xl p-5 text-center shadow-sm hover:shadow-lg transition-all">
+              <div className="w-24 h-24 mx-auto mb-3 rounded-full bg-slate-100 p-0.5 ring-4 ring-slate-400/20 shadow-md">
+                <img
+                  src={COMMITTEE.chairman.image}
+                  alt={COMMITTEE.chairman.name}
+                  className="w-full h-full rounded-full object-cover"
+                />
+              </div>
+              <span className="inline-block bg-slate-800 text-white text-[11px] font-extrabold px-3 py-1 rounded-full mb-2 uppercase tracking-wide">
+                {COMMITTEE.chairman.role}
+              </span>
+              <h4 className="text-base font-bold text-slate-900 leading-tight">{COMMITTEE.chairman.name}</h4>
+              <p className="text-xs text-slate-600 font-medium mt-1">{COMMITTEE.chairman.designation}</p>
             </div>
 
           </div>

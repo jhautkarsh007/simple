@@ -162,14 +162,14 @@ export default function Hero() {
               onClick={() => {
                 // Open PDF in a new tab
                 window.open(
-                  "/assets/Brochure-SIMPLE 2026.pdf",
+                  "/assets/Brochure-SIMPLE workshop 2026.pdf",
                   "_blank"
                 );
 
                 // Start download
                 const link = document.createElement("a");
-                link.href = "/assets/Brochure-SIMPLE 2026.pdf";
-                link.download = "Brochure-SIMPLE 2026.pdf";
+                link.href = "/assets/Brochure-SIMPLE workshop 2026.pdf";
+                link.download = "Brochure-SIMPLE workshop 2026.pdf";
 
                 document.body.appendChild(link);
                 link.click();

@@ -18,8 +18,10 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Broad Areas', href: '#areas' },
+    { name: 'Schedule', href: '#schedule' },
     { name: 'Speakers', href: '#speakers' },
     { name: 'Committee', href: '#committee' },
+    { name: 'Sponsors', href: '#sponsors' },
     { name: 'Registration', href: '#registration' },
     { name: 'Venue & Contact', href: '#venue' },
   ];

@@ -3,8 +3,10 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import BroadAreas from './components/BroadAreas';
+import Schedule from './components/Schedule';
 import Speakers from './components/Speakers';
 import Committee from './components/Committee';
+import Sponsors from './components/Sponsors';
 import Registration from './components/Registration';
 import VenueContact from './components/VenueContact';
 import Footer from './components/Footer';
@@ -17,8 +19,10 @@ export default function App() {
         <Hero />
         <About />
         <BroadAreas />
+        <Schedule />
         <Speakers />
         <Committee />
+        <Sponsors />
         <Registration />
         <VenueContact />
       </main>

@@ -52,8 +52,10 @@ export default function Footer() {
               <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">About Workshop</a></li>
               <li><a href="#areas" className="hover:text-white transition-colors">Broad Areas</a></li>
+              <li><a href="#schedule" className="hover:text-white transition-colors">5-Day Schedule</a></li>
               <li><a href="#speakers" className="hover:text-white transition-colors">Speakers</a></li>
-              <li><a href="#committee" className="hover:text-white transition-colors">Committee Members</a></li>
+              <li><a href="#committee" className="hover:text-white transition-colors">Committee Leadership</a></li>
+              <li><a href="#sponsors" className="hover:text-white transition-colors">Sponsors</a></li>
               <li><a href="#registration" className="hover:text-white transition-colors">Registration & Fee Structure</a></li>
               <li><a href="#venue" className="hover:text-white transition-colors">Venue & Contact</a></li>
             </ul>
