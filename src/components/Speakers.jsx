@@ -6,7 +6,7 @@ export default function Speakers() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedInstitution, setSelectedInstitution] = useState('All');
 
-  const institutions = ['All', 'NIT JSR', 'Tata Steel', 'CSIR-NML', 'DMRL'];
+  const institutions = ['All', 'NIT Jamshedpur', 'Tata Steel', 'CSIR-NML', 'DMRL'];
 
   const filteredSpeakers = SPEAKERS.filter((speaker) => {
     const matchesSearch = 
