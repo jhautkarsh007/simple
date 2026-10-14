@@ -59,10 +59,10 @@ export const COMMITTEE = {
     image: "/assets/committee_ashok_kumar.png"
   },
   chairman: {
-    name: "Dr. C S Chowdhary",
+    name: "Dr. C S Choudhary",
     role: "Chairman",
     designation: "HOD, DMME, NIT Jamshedpur",
-    image: "/assets/committee_cs_chowdhary.png"
+    image: "/assets/committee_cs_choudhary.png"
   },
   convenors: [
     {
@@ -114,7 +114,7 @@ export const SPEAKERS = [
   { name: "Dr. Soumitra Tarafder", designation: "Professor of Practice", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_soumitra_tarafder.png" },
   { name: "Dr. Monalisa Mandal", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_monalisa_mandal.png" },
   { name: "Prof. Ashok Kumar", designation: "Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ashok_kumar.png" },
-  { name: "Dr. Jichil Majhi", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_jichil_majhi.png" },
+  { name: "Dr. Amritendu Mukhopadhyay", designation: "Scientist", institution: "DMRL, Hyderabad", image: "/assets/speaker_amritendu_mukhopadhyay.png" },
   { name: "Dr. Manish Roy", designation: "Professor of Practice", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_manish_roy.png" },
   { name: "Dr. Indranil Chattoraj", designation: "Former Director", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_indranil_chattoraj.png" },
   { name: "Dr. Sanjay K Vajpai", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_sanjay_k_vajpai.png" },
@@ -127,7 +127,6 @@ export const SPEAKERS = [
   { name: "Dr. Ram Krishna", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_ram_krishna.png" },
   { name: "Dr. Amit Patel", designation: "Assistant Professor", institution: "DMME, NIT Jamshedpur", image: "/assets/speaker_amit_patel.png" },
   { name: "Dr. Deepak Kumar", designation: "Assistant Professor", institution: "DME, NIT Jamshedpur", image: "/assets/speaker_deepak_kumar.png" },
-  { name: "Dr. Amritendu Mukhopadhyay", designation: "Scientist", institution: "DMRL, Hyderabad", image: "/assets/speaker_amritendu_mukhopadhyay.png" },
   { name: "Dr. S Sivaprasad", designation: "Scientist-G, Mat. Engg. Div.", institution: "CSIR-NML, Jamshedpur", image: "/assets/speaker_s_sivaprasad.png" }
 ];
 
@@ -155,13 +154,13 @@ export const WORKSHOP_SCHEDULE = [
       { time: "9:30am - 10:00am", topic: "Registration", speaker: null },
       { time: "10:00am - 11:00am", topic: "Overview of Structural Integrity Assessment for industrial components and structure", speaker: "Dr. Soumitra Tarafder" },
       { time: "11:00am - 11:30am", topic: "Tea Break", speaker: null },
-      { time: "11:30am - 12:30pm", topic: "Technical Session", speaker: "Dr. Monalisa Mandal" },
-      { time: "12:30pm - 1:30pm", topic: "Technical Session", speaker: "Prof. Ashok Kumar" },
-      { time: "1:30pm - 2:45pm", topic: "Lunch Break", speaker: null },
-      { time: "2:45pm - 3:30pm", topic: "Mechanisms of material damage and quantification of material resistance", speaker: "Dr. Jichil Majhi" },
+      { time: "11:30am - 12:30pm", topic: "Mechanisms of material damage and quantification of material resistance", speaker: "Dr. Monalisa Mandal" },
+      { time: "12:30pm - 1:30pm", topic: "Mechanisms of material damage and quantification of material resistance", speaker: "Prof. Ashok Kumar" },
+      { time: "1:30pm - 3:00pm", topic: "Lunch Break", speaker: null },
+      { time: "3:00pm - 3:30pm", topic: "Mechanisms of material damage and quantification of material resistance", speaker: "Dr. Monalisa Mandal" },
       { time: "3:30pm - 4:30pm", topic: "Surface degradation and its prevention", speaker: "Dr. Indranil Chattoraj" },
       { time: "4:30pm - 5:00pm", topic: "Tea Break", speaker: null },
-      { time: "5:00pm - 6:00pm", topic: "Surface degradation and its prevention (Contd.)", speaker: "Dr. Indranil Chattoraj" }
+      { time: "5:00pm - 6:00pm", topic: "Surface degradation and its prevention", speaker: "Dr. Indranil Chattoraj" }
     ]
   },
   {
