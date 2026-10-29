@@ -212,7 +212,7 @@ export const WORKSHOP_SCHEDULE = [
 export const REGISTRATION_DETAILS = {
   fees: [
     { category: "Academia (B.Tech./M.Tech./Ph.D./Faculty) (Internal)", fee: "Complete fees waived off", highlighted: true },
-    { category: "Academia (B.Tech.) (External)", fee: "590 INR (GST included)" },
+    { category: "Academia (B.Tech/Diploma) (External)", fee: "590 INR (GST included)" },
     { category: "Academia (M.Tech./Ph.D./Faculty) (External)", fee: "2,950 INR (GST included)" },
     { category: "Industry/Laboratory", fee: "5,900 INR (GST included)" },
     { category: "For IIM members", fee: "4,720 INR (GST included)" }
